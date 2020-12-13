@@ -3,19 +3,18 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: (Long Last) Name
-email: you@example.com
+first_name: Alan
+middle_name: M.
+last_name: Rice
+email: alanmrice@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+  Hosted by <a href="https://netlify.com/" target="_blank">Netlify</a>.
 
-url:  # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/
+url: http://localhost:4000 # the base hostname & protocol for your site
+baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 
 # -----------------------------------------------------------------------------
@@ -23,7 +22,7 @@ last_updated: false # set to true if you want to display last updated in the foo
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 # TODO: add layout settings (single page vs. multi-page)
 
 # -----------------------------------------------------------------------------
@@ -32,18 +31,18 @@ footer_fixed: true
 # Display links to the page with a preview object on social media.
 # To achieve this, change serve_og_meta to true and then provide the URL of the
 # preview image as the value of og_image.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
-twitter_username: # your Twitter handle
+github_username: alanrice # your GitHub user name
+twitter_username: alanmrice # your Twitter handle
 linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
+scholar_userid: lQi7MKAAAAAJ # your Google Scholar ID
+orcid_id: 0000-0002-0226-6449 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -52,7 +51,8 @@ blogger_url: # your blogger URL
 keybase_username: # your keybase user name
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Email <a href="mailto:alanmrice@gmail.com"><i class="fas fa-envelope"></i> alanmrice@gmail.com</a> (personal)
+  or <a href="mailto:amr86@bath.ac.uk"><i class="fas fa-envelope"></i> amr86@bath.ac.uk</a> (work).
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
@@ -60,8 +60,8 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: Blog  # your blog must have a name for it to show up in the nav bar
+blog_description:
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -69,7 +69,7 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname:  # put your disqus shortname
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -126,7 +126,7 @@ plugins:
 
 scholar:
 
-  last_name: Einstein
+  last_name: Rice
 
   style: apa
   locale: en
