@@ -2,7 +2,7 @@
 layout: page
 title: Cards, but queer
 description: Listing of inclusive Irish greetings cards
-img: /assets/img/cbq-screenshot.png
+img: /assets/img/cbq-screenshot_thumb.png
 importance: 1
 ---
 

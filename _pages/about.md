@@ -6,7 +6,7 @@ description: Postdoctoral research associate - Milner Centre for Evolution, Univ
 
 profile:
   align: right
-  image: bio.jpg
+  image: bio_resize.jpg
   address: >
     <!-- <p></p> -->
 

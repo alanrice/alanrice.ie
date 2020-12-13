@@ -2,7 +2,7 @@
 layout: page
 title: eye-prod
 description: MacOS menubar app that gives gentle eye care prods while you work
-img: /assets/img/eye-prod-notification.png
+img: /assets/img/eye-prod-notification_thumb.png
 importance: 1
 ---
 
