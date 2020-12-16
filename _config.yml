@@ -54,7 +54,7 @@ contact_note: >
   Email <a href="mailto:alanmrice@gmail.com"><i class="fas fa-envelope"></i> alanmrice@gmail.com</a> (personal)
   or <a href="mailto:amr86@bath.ac.uk"><i class="fas fa-envelope"></i> amr86@bath.ac.uk</a> (work).
 
-google_analytics: UA-306086-9 # out your google-analytics code
+google_analytics: # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -148,7 +148,7 @@ scholar:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:  true
+enable_google_analytics:  false
 enable_mansory:           true
 enable_math:              true
 enable_tooltips:          false
